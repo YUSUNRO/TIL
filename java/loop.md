@@ -1,6 +1,6 @@
 # 반복문
 
-## for문
+## 증감
 ```java
 // A부터 B까지 증가
 for(int i=A; i<=B; i++)
@@ -26,4 +26,12 @@ for(int i=10; i>=4; i-=2)
 
 // 3, 1, -1
 for(int i=3; i>=-1; i-=2)
+```
+## 합산
+```java
+// 1~N 의 합
+int sum = 0;
+for(int i=1; i<=N; i++) {
+  sum += i;
+}
 ```
