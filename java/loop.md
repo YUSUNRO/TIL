@@ -35,3 +35,28 @@ for(int i=1; i<=N; i++) {
   sum += i;
 }
 ```
+
+## count 변수 사용 안하고, 단순 반복 실행
+```java
+// N번 반복
+for(int i=0; i<N; i++) {
+  System.out.print("*");
+}
+```
+
+## 이중 for문
+```java
+/*
+*
+**
+***
+****
+*****
+*/
+for(int i=1; i<=5; i++) { // i: 1~5 (증감 용도의 for문)
+  for(int j=0; j<i; j++) { // i번 반복실행 (j 변수 사용안했고, 단순반복 용도로 사용된 for문)
+    System.out.print("*");
+  }
+  System.out.println();
+}
+```
